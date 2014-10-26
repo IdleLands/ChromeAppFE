@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "IdleLands",
+  "description": "__MSG_description__",
+  "version": "0.0.1",
+  "default_locale": "en",
+  "author": "https://github.com/AshlynnInWonderland",
+  "icons":{
+    "16": "icon/16.png",
+    "48": "icon/48.png",
+    "128": "icon/128.png"
+  },
+  "app":{
+    "background":{
+      "scripts":[],
+      "persistent": false
+    }
+  },
+  "offline_enabled": true
+}
