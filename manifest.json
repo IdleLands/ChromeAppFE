@@ -1,18 +1,15 @@
 {
   "manifest_version": 2,
   "name": "IdleLands",
-  "description": "__MSG_description__",
+  "description": "The official (if it's good enough) ",
   "version": "0.0.1",
-  "default_locale": "en",
   "author": "https://github.com/AshlynnInWonderland",
   "icons":{
-    "16": "icon/16.png",
-    "48": "icon/48.png",
-    "128": "icon/128.png"
+
   },
   "app":{
     "background":{
-      "scripts":["src/js/background/fetch_info.js","src/js/background/xhr_util.js"],
+      "scripts":["src/js/background/fetch_info.js","src/js/background/api_util.js"],
       "persistent": true
     }
   },
