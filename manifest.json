@@ -12,7 +12,7 @@
   },
   "app":{
     "background":{
-      "scripts":[],
+      "scripts":["src/js/fetch_info.js","src/js/xhr_util.js"],
       "persistent": false
     }
   },
