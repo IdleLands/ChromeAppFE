@@ -10,7 +10,7 @@
       completed++;
       if(completed === j) start();
     };
-    xhr.open('GET', chrome.extension.getURL(['/src/config/',this.name,'.json'].join('')), true);
+    xhr.open('GET', chrome.runtime.getURL('/src/config/' + xhr.name + '.json'), true);
     xhr.send();
   }
 })();
