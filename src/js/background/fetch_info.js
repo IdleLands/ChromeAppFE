@@ -6,7 +6,7 @@
     var xhr = new XMLHttpRequest();
     xhr.name = configs[i];
     xhr.onload = function(){
-      window.data[this.name] = JSON.parse(this.responseText);
+      window.config[this.name] = JSON.parse(this.responseText);
       completed++;
       if(completed === j) start();
     };
@@ -14,3 +14,5 @@
     xhr.send();
   }
 })();
+
+var start = function(){};
