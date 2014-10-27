@@ -12,8 +12,8 @@
   },
   "app":{
     "background":{
-      "scripts":["src/js/fetch_info.js","src/js/xhr_util.js"],
-      "persistent": false
+      "scripts":["src/js/background/fetch_info.js","src/js/background/xhr_util.js"],
+      "persistent": true
     }
   },
   "offline_enabled": true
